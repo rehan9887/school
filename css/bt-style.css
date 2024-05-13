@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.header {
+  background: #fff5f1;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.home {
+  color: #666680;
+  font-size: 14px;
+}
+.hero-sec {
+  padding: 100px 0;
+  background: #fff5f1;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.que {
+  color: #524fd5;
+}
+.parge-1 {
+  color: #666680;
+  font-size: 18px;
+}
+.hading-1{
+  font-size: 34px;
+  font-weight: 600;
+}
+.btn-1 {
+  background: #524fd5;
+  font-size: 18px;
+}
+.sec-1 {
+  padding: 100px 0;
+}
+.center-1 {
+  text-align: center;
+}
+.hading-2 {
+  font-size: 20px;
+  color: #181b32;
+}
+.hading-3 {
+  font-size: 24px;
+  color: #181b32;
+  font-weight: 500;
+}
+.sec-2 {
+  padding: 100px 0;
+}
+.sons {
+  position: relative !important;
+  z-index: 22 !important;
+}
+.btn-2 {
+  --swiper-navigation-size: 20px !important;
+  right: 18px !important;
+  top: 4% !important;
+  padding: 20px 20px !important;
+}
+.btn-3 {
+  --swiper-navigation-size: 20px !important;
+  right: 0% !important;
+  top: 4% !important;
+  left: 66% !important;
+  padding: 20px 20px !important;
+}
+
+.sec-3 {
+  padding: 100px 0;
+}
+.padding-1 {
+  padding: 50px;
+}
+.hading-5 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #181b32;
+}
+.parge-2 {
+  font-size: 26px;
+}
+.text-laft {
+  text-align: left !important;
+}
+
+.sec-4 {
+  padding: 100px 0;
+}
+
+.less {
+  border-radius: 40px;
+  background: #524fd5;
+}
+.center-2{
+  text-align: left;
+}
+
+.sec-5 {
+  padding: 100px 0;
+}
+.out {
+  outline: none !important;
+  background: #f8fafe;
+  border: 1px solid #f8fafe !important;
+}
+.light {
+  background: #524fd5;
+}
+
+.footer {
+  padding: 100px 0;
+  border-radius: 40px;
+  background: #f8fafe;
+}
+.hading-6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.ledge:hover , .ledge:hover .level {
+background: #0000ff;
+color: #fff;
+}
+.ledge{
+  border: 1px solid rgba(176, 176, 192, 0.30) !important;
+}
+.parge-3 {
+  font-size: 14px;
+  color: #666680;
+}
+
+.color-1 {
+  border: 1px solid #666680;
+  border-radius: 50%;
+  padding: 7px 13px;
+}
+.fa-brands {
+  color: #666680;
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+  .btn-3 {
+    right: 0% !important;
+    top: 0 !important;
+    left: 72% !important;
+    padding: 24px 24px !important;
+  }
+  .btn-2 {
+    right: 56px !important;
+    top: 0 !important;
+    padding: 24px 24px !important;
+  }
+  .center-2{
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+  .btn-2 {
+      --swiper-navigation-size: 20px !important;
+    right: 8% !important;
+    top: 4% !important;
+    padding: 24px 24px !important;
+  }
+  .btn-3 {
+    --swiper-navigation-size: 20px !important;
+    right: 0% !important;
+    top: 4% !important;
+    left: 80% !important;
+    padding: 24px 24px !important;
+  }
+  .padding-1 {
+    padding: 100px;
+  }
+  .hading-2 {
+    font-size: 48px;
+  }
+  .hading-1{
+    font-size: 54px;
+  }
+}
